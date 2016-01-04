@@ -24,7 +24,7 @@
 <body>     
 <?php 
 	$cur_date = date('m/d/Y');
-	$rem  =  Yii::app()->db->createCommand('SELECT * FROM tbl_reminders WHERE date >="'.$cur_date.'"')->execute();
+	//$rem  =  Yii::app()->db->createCommand('SELECT * FROM tbl_reminders WHERE date >="'.$cur_date.'"')->execute();
 	$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; 
 	$base_url = Yii::app()->baseurl; 
 	$url = explode($base_url."/" , $actual_link);

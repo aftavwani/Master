@@ -99,8 +99,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=217_property',
 			'emulatePrepare' => true,
-			'username' => 'infotech',
-			'password' => 'trius12',
+			'username' => '',
+			'password' => '',
 			'charset' => 'utf8',
 			'tablePrefix'=>'tbl_',
 		),
